@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Card from "./Components/Card";
+import Header from "./Components/Header";
+import Favorites from "./Pages/Favorites";
+import MoviesPage from "./Pages/MoviesPage";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div>
+      <MoviesPage />
+    </div>
+  );
 }
 
 export default App;
